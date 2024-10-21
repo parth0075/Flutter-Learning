@@ -10,6 +10,9 @@ android {
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
+     // Specify the Build Tools version (ensure it matches what's installed on your system)
+    buildToolsVersion "35.0.0" // Or change to a version that matches your setup
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8

@@ -10,6 +10,7 @@
 analyzer:
   errors:
     avoid_unnecessary_containers: ignore
+    depend_on_referenced_packages: ignore
     prefer_const_constructors: ignore
 include: package:flutter_lints/flutter.yaml
 
